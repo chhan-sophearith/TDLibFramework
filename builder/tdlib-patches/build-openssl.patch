@@ -1,0 +1,20 @@
+diff --git a/example/ios/build-openssl.sh b/example/ios/build-openssl.sh
+index ce489e71..69d2462b 100755
+--- a/example/ios/build-openssl.sh
++++ b/example/ios/build-openssl.sh
+@@ -7,13 +7,13 @@ git apply ../Python-Apple-support.patch
+ cd ..
+ 
+-platforms="macOS iOS watchOS tvOS visionOS"
++platforms="$1"
+ 
+ for platform in $platforms;
+ do
+   if [[ $platform = "macOS" ]]; then
+     simulators="0"
+   else
+-    simulators="0 1"
++    simulators="0"
+   fi
+ 
+   for simulator in $simulators;
