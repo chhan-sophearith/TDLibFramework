@@ -32,7 +32,7 @@ let package = Package(
         .binaryTarget(
             name: "TDLibFramework",
             url: "https://github.com/chhan-sophearith/TDLibFramework/releases/download/1.0.5/TDLibFramework.zip",
-            checksum: "ea4443191a5007710044d3bad89d9e76335d6f4743f65a2a79bbc507310f7078"
+            checksum: "ea4443191a5007710044d3bad89d9e76335d6f4743f65a2a79bbc507310f7078aa"
         ),
         .testTarget(
             name: "TDLibFrameworkTests",
