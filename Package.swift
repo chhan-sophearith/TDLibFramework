@@ -31,8 +31,8 @@ let package = Package(
         
         .binaryTarget(
             name: "TDLibFramework",
-            url: "https://github.com/chhan-sophearith/TDLibFramework/releases/download/1.0.9/TDLibFramework.zip",
-            checksum: "26dcf551fd9dab1523d1b5a1ef8cade4af4fc94c268224aa57571c0db1f65865"
+            url: "https://github.com/chhan-sophearith/TDLibFramework/releases/download/1.1.0/TDLibFramework.zip",
+            checksum: "f01f9485e2649321886878242859b7678077b61b96acc4876567ba3c808ca025"
         ),
         .testTarget(
             name: "TDLibFrameworkTests",
